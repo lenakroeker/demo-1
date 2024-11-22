@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: blue;
+  padding: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  padding: 20px;
+  color: white;
+  background: blue;
+}
+
+input {
+  margin: 0 100px;
+  width: 30vw;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 25vw;
+  height: auto;
+  margin: 10px;
+}
+
+.product {
+  padding: 10px;
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews {
+  padding: 10px;
+}
